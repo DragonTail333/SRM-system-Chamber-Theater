@@ -16,5 +16,10 @@ namespace SRM_система_для_Камерного_Театра
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Забыли пароль, обратитель по номеру *(***)***-**-**");
+        }
     }
 }
