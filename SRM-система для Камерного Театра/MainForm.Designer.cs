@@ -43,8 +43,10 @@ namespace SRM_система_для_Камерного_Театра
             this.home1 = new SRM_система_для_Камерного_Театра.Home();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
+            this.home2 = new SRM_система_для_Камерного_Театра.Home();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -70,7 +72,7 @@ namespace SRM_система_для_Камерного_Театра
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 52);
+            this.label2.Location = new System.Drawing.Point(13, 54);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 2;
@@ -89,7 +91,7 @@ namespace SRM_система_для_Камерного_Театра
             // 
             this.button6.Location = new System.Drawing.Point(13, 87);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(231, 23);
+            this.button6.Size = new System.Drawing.Size(231, 36);
             this.button6.TabIndex = 0;
             this.button6.Text = "Выход из аккаунта";
             this.button6.UseVisualStyleBackColor = true;
@@ -162,6 +164,7 @@ namespace SRM_система_для_Камерного_Театра
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.home2);
             this.panel2.Location = new System.Drawing.Point(277, 13);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(650, 452);
@@ -175,6 +178,13 @@ namespace SRM_система_для_Камерного_Театра
             this.button7.TabIndex = 6;
             this.button7.Text = "Разработчики";
             this.button7.UseVisualStyleBackColor = true;
+            // 
+            // home2
+            // 
+            this.home2.Location = new System.Drawing.Point(3, 3);
+            this.home2.Name = "home2";
+            this.home2.Size = new System.Drawing.Size(644, 449);
+            this.home2.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -190,6 +200,7 @@ namespace SRM_система_для_Камерного_Театра
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -210,5 +221,6 @@ namespace SRM_система_для_Камерного_Театра
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private Home home2;
     }
 }
