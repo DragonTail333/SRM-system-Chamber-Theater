@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace SRM_система_для_Камерного_Театра
 {
-    public partial class Form1 : Form
+    public partial class Home : UserControl
     {
-        public Form1()
+        public Home()
         {
             InitializeComponent();
         }
+
+
     }
 }

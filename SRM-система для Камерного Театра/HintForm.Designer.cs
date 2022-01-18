@@ -1,7 +1,7 @@
 ﻿
 namespace SRM_система_для_Камерного_Театра
 {
-    partial class Form1
+    partial class HintForm
     {
         /// <summary>
         /// Required designer variable.
@@ -31,13 +31,13 @@ namespace SRM_система_для_Камерного_Театра
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // HintForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(975, 512);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(342, 432);
+            this.Name = "HintForm";
+            this.Text = "Справка";
             this.ResumeLayout(false);
 
         }
