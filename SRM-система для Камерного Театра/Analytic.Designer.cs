@@ -35,18 +35,18 @@ namespace SRM_система_для_Камерного_Театра
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(283, 187);
+            this.label1.Location = new System.Drawing.Point(297, 183);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Здесь диаграммы";
             // 
-            // UserControl2
+            // Analytic
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
-            this.Name = "UserControl2";
+            this.Name = "Analytic";
             this.Size = new System.Drawing.Size(708, 408);
             this.ResumeLayout(false);
             this.PerformLayout();

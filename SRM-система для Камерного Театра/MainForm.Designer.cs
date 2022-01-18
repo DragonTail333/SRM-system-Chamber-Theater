@@ -30,6 +30,10 @@ namespace SRM_система_для_Камерного_Театра
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -38,10 +42,7 @@ namespace SRM_система_для_Камерного_Театра
             this.button1 = new System.Windows.Forms.Button();
             this.home1 = new SRM_система_для_Камерного_Театра.Home();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -57,8 +58,45 @@ namespace SRM_система_для_Камерного_Театра
             this.panel1.Size = new System.Drawing.Size(258, 126);
             this.panel1.TabIndex = 0;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(7, -3);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(48, 13);
+            this.label13.TabIndex = 3;
+            this.label13.Text = "Аккаунт";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 52);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "label2";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(83, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Пользователь:";
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(13, 87);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(231, 23);
+            this.button6.TabIndex = 0;
+            this.button6.Text = "Выход из аккаунта";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.button7);
             this.panel3.Controls.Add(this.button5);
             this.panel3.Controls.Add(this.button4);
             this.panel3.Controls.Add(this.button3);
@@ -66,7 +104,7 @@ namespace SRM_система_для_Камерного_Театра
             this.panel3.Controls.Add(this.button1);
             this.panel3.Location = new System.Drawing.Point(12, 144);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(258, 286);
+            this.panel3.Size = new System.Drawing.Size(258, 321);
             this.panel3.TabIndex = 1;
             // 
             // button5
@@ -126,55 +164,28 @@ namespace SRM_система_для_Камерного_Театра
             // 
             this.panel2.Location = new System.Drawing.Point(277, 13);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(650, 417);
+            this.panel2.Size = new System.Drawing.Size(650, 452);
             this.panel2.TabIndex = 3;
             // 
-            // button6
+            // button7
             // 
-            this.button6.Location = new System.Drawing.Point(13, 100);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(231, 23);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "Выход из аккаунта";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button7.Location = new System.Drawing.Point(13, 278);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(231, 37);
+            this.button7.TabIndex = 6;
+            this.button7.Text = "Разработчики";
+            this.button7.UseVisualStyleBackColor = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Пользователь:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 52);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(7, -3);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(48, 13);
-            this.label13.TabIndex = 3;
-            this.label13.Text = "Аккаунт";
-            // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(939, 440);
+            this.ClientSize = new System.Drawing.Size(939, 471);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.home1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "SRM система";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -198,5 +209,6 @@ namespace SRM_система_для_Камерного_Театра
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }
