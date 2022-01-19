@@ -43,19 +43,22 @@ namespace SRM_система_для_Камерного_Театра
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.label20 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -181,11 +184,21 @@ namespace SRM_система_для_Камерного_Театра
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label22);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Location = new System.Drawing.Point(15, 198);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(306, 110);
             this.panel2.TabIndex = 1;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(12, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(121, 13);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Время использования";
             // 
             // panel3
             // 
@@ -201,67 +214,14 @@ namespace SRM_система_для_Камерного_Театра
             this.panel3.Size = new System.Drawing.Size(346, 175);
             this.panel3.TabIndex = 2;
             // 
-            // panel4
+            // label19
             // 
-            this.panel4.Controls.Add(this.label20);
-            this.panel4.Location = new System.Drawing.Point(331, 198);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(346, 110);
-            this.panel4.TabIndex = 3;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(12, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(121, 13);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Время использования";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(14, -2);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(65, 13);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "Статистика";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(14, 29);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(90, 13);
-            this.label14.TabIndex = 1;
-            this.label14.Text = "Новые клиенты:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(13, 67);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(94, 13);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "Удачные звонки:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(14, 104);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(127, 13);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "Обслужанные клиенты:";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(110, 29);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 13);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "label17";
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(147, 104);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(41, 13);
+            this.label19.TabIndex = 6;
+            this.label19.Text = "label19";
             // 
             // label18
             // 
@@ -272,14 +232,60 @@ namespace SRM_система_для_Камерного_Театра
             this.label18.TabIndex = 5;
             this.label18.Text = "label18";
             // 
-            // label19
+            // label17
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(147, 104);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(41, 13);
-            this.label19.TabIndex = 6;
-            this.label19.Text = "label19";
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(110, 29);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(41, 13);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "label17";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(14, 104);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(127, 13);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "Обслужанные клиенты:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(13, 67);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(94, 13);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "Удачные звонки:";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(14, 29);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(90, 13);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "Новые клиенты:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(14, -2);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(65, 13);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "Статистика";
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.label24);
+            this.panel4.Controls.Add(this.label23);
+            this.panel4.Controls.Add(this.label20);
+            this.panel4.Location = new System.Drawing.Point(331, 198);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(346, 110);
+            this.panel4.TabIndex = 3;
             // 
             // label20
             // 
@@ -298,6 +304,33 @@ namespace SRM_система_для_Камерного_Театра
             this.label21.Size = new System.Drawing.Size(48, 13);
             this.label21.TabIndex = 7;
             this.label21.Text = "Аккаунт";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(136, 44);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(41, 13);
+            this.label22.TabIndex = 1;
+            this.label22.Text = "label22";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(14, 27);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(41, 13);
+            this.label23.TabIndex = 2;
+            this.label23.Text = "label23";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(14, 63);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(41, 13);
+            this.label24.TabIndex = 7;
+            this.label24.Text = "label24";
             // 
             // Home
             // 
@@ -351,5 +384,8 @@ namespace SRM_система_для_Камерного_Театра
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
     }
 }

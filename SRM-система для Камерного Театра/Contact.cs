@@ -104,5 +104,16 @@ namespace SRM_система_для_Камерного_Театра
             //Показываем заголовки столбцов
             dataGridView1.ColumnHeadersVisible = true;
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            Form1 Form1 = new Form1();
+            Form1.ShowDialog();
+        }
     }
 }

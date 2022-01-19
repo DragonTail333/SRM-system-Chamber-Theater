@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace SRM_система_для_Камерного_Театра
 {
-    public partial class MainForm : Form
+    public partial class Infocontact : Form
     {
-        public MainForm()
+        public Infocontact()
         {
             InitializeComponent();
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            Credits Credits = new Credits();
-            Credits.ShowDialog();
         }
     }
 }

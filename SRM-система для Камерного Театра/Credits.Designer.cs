@@ -36,76 +36,109 @@ namespace SRM_система_для_Камерного_Театра
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 58);
+            this.label1.Location = new System.Drawing.Point(12, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(101, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "Дмитрий Кожакин";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 82);
+            this.label2.Location = new System.Drawing.Point(12, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(91, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.label2.Text = "Денис Гредасов";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 104);
+            this.label3.Location = new System.Drawing.Point(12, 95);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(92, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.label3.Text = "Данила Казаков";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 126);
+            this.label4.Location = new System.Drawing.Point(12, 118);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(76, 13);
             this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.label4.Text = "Марк Крюков";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 150);
+            this.label5.Location = new System.Drawing.Point(124, 45);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.Size = new System.Drawing.Size(92, 13);
             this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.label5.Text = "Андрей Бобошко";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(123, 9);
+            this.label6.Location = new System.Drawing.Point(124, 71);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.Size = new System.Drawing.Size(87, 13);
             this.label6.TabIndex = 5;
-            this.label6.Text = "label6";
+            this.label6.Text = "Кирилл Ламбин";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(123, 179);
+            this.label7.Location = new System.Drawing.Point(124, 95);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.Size = new System.Drawing.Size(96, 13);
             this.label7.TabIndex = 6;
-            this.label7.Text = "label7";
+            this.label7.Text = "Аркадий Воронин";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(124, 118);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(77, 13);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Руслан Алиев";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(80, 9);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(78, 13);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "Разработчики";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(55, 145);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(123, 13);
+            this.label10.TabIndex = 9;
+            this.label10.Text = "Челябинск (2021-2022)";
             // 
             // Credits
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 201);
+            this.ClientSize = new System.Drawing.Size(230, 167);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -114,7 +147,7 @@ namespace SRM_система_для_Камерного_Театра
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Credits";
-            this.Text = "Credits";
+            this.Text = "Разработчики";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,5 +162,8 @@ namespace SRM_система_для_Камерного_Театра
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }
